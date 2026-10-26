@@ -1,0 +1,13 @@
+{
+  "build": {
+    "command": "node scripts/build.mjs"
+  },
+  "name": "zahrady-pankova",
+  "compatibility_date": "2026-10-13",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

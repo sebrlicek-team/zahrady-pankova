@@ -1,0 +1,673 @@
+{
+  "name": "CCN / WEB",
+  "tagline": "Modulární základ pro klientské weby",
+  "url": "https://template.ccn-dev.cz",
+  "indexable": false,
+  "theme": {
+    "accent": "#a34329",
+    "ink": "#23332d",
+    "paper": "#f6f3ec",
+    "serif": false
+  },
+  "navigation": [
+    {
+      "label": "Moduly",
+      "href": "/#nabidka"
+    },
+    {
+      "label": "Galerie",
+      "href": "/#galerie"
+    },
+    {
+      "label": "Detail",
+      "href": "/detail/"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/#kontakt"
+    }
+  ],
+  "footer": "Vývojová ukázka CCN. Ilustrační obsah; kontaktní formulář skutečně odesílá zprávy.",
+  "footerLinks": [],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Stavebnice webů",
+      "description": "Katalog modulů CCN pro weby služeb, referencí a produktů.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "CCN / WEB TEMPLATE / 0.1",
+          "title": "Web, který poskládáte podle klienta.",
+          "intro": "Jeden společný základ. Samostatné moduly, vlastní obsah a charakter každého webu.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika — ukázka modulu"
+          },
+          "actions": [
+            {
+              "label": "Prohlédnout moduly",
+              "href": "/#nabidka"
+            },
+            {
+              "label": "Ukázkový detail",
+              "href": "/detail/"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "id": "cisla",
+          "title": "Společný základ v praxi",
+          "items": [
+            {
+              "value": "3",
+              "label": "zdrojové klientské weby"
+            },
+            {
+              "value": "16",
+              "label": "skládatelných obsahových modulů"
+            },
+            {
+              "value": "1",
+              "label": "společný postup nasazení"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "id": "nabidka",
+          "eyebrow": "01 / SLUŽBY A KATALOG",
+          "title": "Karty podle vašeho obsahu.",
+          "intro": "Stejný modul pro služby, reference i produktové řady.",
+          "filterable": true,
+          "items": [
+            {
+              "title": "Stavby a realizace",
+              "text": "Reference inspirované strukturou webu Miláček.",
+              "category": "Stavby",
+              "image": {
+                "src": "/assets/building.svg",
+                "alt": "Ilustrace domu"
+              },
+              "link": {
+                "label": "Ukázkový detail",
+                "href": "/reference/"
+              }
+            },
+            {
+              "title": "Doprava a zázemí",
+              "text": "Služby a technika inspirované webem Beran.",
+              "category": "Doprava",
+              "image": {
+                "src": "/assets/truck.svg",
+                "alt": "Ilustrace nákladního vozu"
+              },
+              "link": {
+                "label": "Ukázkový detail",
+                "href": "/sluzba/"
+              }
+            },
+            {
+              "title": "Modely a specifikace",
+              "text": "Produktové karty inspirované katalogem Italboats.",
+              "category": "Lodě",
+              "image": {
+                "src": "/assets/boat.svg",
+                "alt": "Ilustrace lodě"
+              },
+              "link": {
+                "label": "Ukázkový detail",
+                "href": "/produkt/"
+              }
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "id": "pribeh",
+          "eyebrow": "02 / O FIRMĚ",
+          "title": "Prostor pro vlastní příběh.",
+          "image": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační architektura"
+          },
+          "paragraphs": [
+            "Text a fotografie tvoří samostatný modul. V další zakázce stačí vyměnit obsah a vybrat barevné nastavení.",
+            "Ukázka vychází ze společné struktury tří webů. Není kopií jejich vzhledu ani kompletní migrací klientských stránek."
+          ]
+        },
+        {
+          "type": "steps",
+          "id": "postup",
+          "eyebrow": "03 / POSTUP",
+          "title": "Od zadání k publikaci.",
+          "items": [
+            {
+              "title": "Vybereme sestavu",
+              "text": "Zvolíme moduly, jejich pořadí a stránky."
+            },
+            {
+              "title": "Doplníme obsah",
+              "text": "Vložíme texty, kontakty, fotografie a média klienta."
+            },
+            {
+              "title": "Ověříme a nasadíme",
+              "text": "Zkontrolujeme odkazy, mobil a výsledné soubory."
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "galerie",
+          "eyebrow": "04 / GALERIE",
+          "title": "Obrázky s prohlížením.",
+          "images": [
+            {
+              "src": "/assets/building.svg",
+              "alt": "Ukázková stavba"
+            },
+            {
+              "src": "/assets/truck.svg",
+              "alt": "Ukázková doprava"
+            },
+            {
+              "src": "/assets/boat.svg",
+              "alt": "Ukázková loď"
+            }
+          ]
+        },
+        {
+          "type": "destinations",
+          "id": "destinace",
+          "eyebrow": "05 / PŮSOBNOST",
+          "title": "Kam vaše služby dosáhnou.",
+          "items": [
+            "Česká republika",
+            "Francie",
+            "Španělsko",
+            "Portugalsko"
+          ]
+        },
+        {
+          "type": "faq",
+          "id": "otazky",
+          "eyebrow": "06 / OTÁZKY",
+          "title": "Jak stavebnici používat?",
+          "items": [
+            {
+              "question": "Musí všechny weby vypadat stejně?",
+              "answer": "Ne. Obsah, pořadí modulů, barvy, typografie a varianty úvodní sekce se nastavují zvlášť."
+            },
+            {
+              "question": "Posílá tento formulář e-maily?",
+              "answer": "Ano. Kontaktní formulář odesílá zprávu přímo správci webu. Po přijetí uvidíte potvrzení, nemusíte otevírat poštovní aplikaci."
+            }
+          ]
+        },
+        {
+          "type": "contact",
+          "id": "kontakt",
+          "eyebrow": "07 / KONTAKT",
+          "title": "Začněme rozhovorem.",
+          "address": "CCN / WEB\nNapište nám přímo přes formulář.",
+          "email": "arnost.stepanek@gmail.com",
+          "people": [
+            {
+              "name": "Arnošt Štěpánek",
+              "role": "Kontakt pro webové projekty"
+            }
+          ],
+          "form": {
+            "mode": "server"
+          }
+        },
+        {
+          "type": "location",
+          "id": "provozovna",
+          "title": "Adresa, kterou snadno najdete.",
+          "intro": "Ukázkové místo v Praze — nejde o sídlo CCN. Adresu při použití nahraďte.",
+          "address": "Staroměstské náměstí 1\n110 00 Praha 1",
+          "hours": [
+            {
+              "label": "Po–Pá",
+              "value": "9:00–17:00 (ukázka)"
+            },
+            {
+              "label": "So–Ne",
+              "value": "Zavřeno"
+            }
+          ]
+        },
+        {
+          "type": "reviews",
+          "id": "hodnoceni",
+          "title": "Zkušenosti zákazníků.",
+          "intro": "Smyšlené citace slouží pouze k ukázce vzhledu.",
+          "items": [
+            {
+              "name": "Ukázkový zákazník A",
+              "quote": "Ocenili jsme srozumitelnou domluvu a průběžné informace.",
+              "context": "Ukázka hodnocení realizace"
+            },
+            {
+              "name": "Ukázkový zákazník B",
+              "quote": "Od prvního kontaktu jsme věděli, co bude následovat.",
+              "context": "Ukázka hodnocení služby"
+            }
+          ]
+        },
+        {
+          "type": "partners",
+          "id": "partneri",
+          "title": "Partneři a značky.",
+          "intro": "Zástupné názvy a ilustrace; při použití vložte skutečná loga.",
+          "items": [
+            {
+              "name": "Partner A",
+              "image": {
+                "src": "/assets/building.svg",
+                "alt": "Zástupná ilustrace partnera A"
+              }
+            },
+            {
+              "name": "Partner B",
+              "image": {
+                "src": "/assets/truck.svg",
+                "alt": "Zástupná ilustrace partnera B"
+              }
+            },
+            {
+              "name": "Partner C",
+              "image": {
+                "src": "/assets/boat.svg",
+                "alt": "Zástupná ilustrace partnera C"
+              }
+            }
+          ]
+        },
+        {
+          "type": "team",
+          "id": "tym",
+          "title": "Lidé za vaší zakázkou.",
+          "intro": "Ukázkové kontakty, které se při založení webu nahradí.",
+          "items": [
+            {
+              "name": "Kontaktní osoba A",
+              "role": "Péče o zákazníky",
+              "text": "Pomůže s první poptávkou a výběrem služby.",
+              "email": "obchod@example.invalid"
+            },
+            {
+              "name": "Kontaktní osoba B",
+              "role": "Technické konzultace",
+              "text": "Zodpoví otázky k realizaci a parametrům.",
+              "email": "technika@example.invalid"
+            }
+          ]
+        },
+        {
+          "type": "downloads",
+          "id": "dokumenty",
+          "title": "Vše potřebné ke stažení.",
+          "items": [
+            {
+              "title": "Ukázkový informační list",
+              "description": "Funkční soubor pro ověření stažení.",
+              "format": "TXT",
+              "href": "/documents/ukazka.txt"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "vyzva",
+          "eyebrow": "DALŠÍ KROK",
+          "title": "Vlastní web. Společný základ.",
+          "intro": "Připraveno pro další klientský projekt.",
+          "link": {
+            "label": "Zpět na začátek",
+            "href": "/#uvod"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/detail/",
+      "title": "Ukázkový detail",
+      "description": "Sestava detailu produktu nebo realizace.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "CCN / WEB TEMPLATE / 0.1",
+          "title": "Detail produktu nebo realizace.",
+          "intro": "Jeden společný základ. Samostatné moduly, vlastní obsah a charakter každého webu.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/boat.svg",
+            "alt": "Ilustrační grafika — ukázka modulu"
+          },
+          "actions": [
+            {
+              "label": "Zpět na přehled",
+              "href": "/#nabidka"
+            }
+          ]
+        },
+        {
+          "type": "specs",
+          "id": "parametry",
+          "title": "Parametry na jednom místě",
+          "items": [
+            {
+              "label": "Typ obsahu",
+              "value": "Produkt nebo reference"
+            },
+            {
+              "label": "Údaje",
+              "value": "Doplní klient"
+            },
+            {
+              "label": "Fotografie",
+              "value": "Vlastní nebo licencované"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "fotografie",
+          "eyebrow": "04 / GALERIE",
+          "title": "Obrázky s prohlížením.",
+          "images": [
+            {
+              "src": "/assets/building.svg",
+              "alt": "Ukázková stavba"
+            },
+            {
+              "src": "/assets/truck.svg",
+              "alt": "Ukázková doprava"
+            },
+            {
+              "src": "/assets/boat.svg",
+              "alt": "Ukázková loď"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "title": "Zaujalo vás to?",
+          "intro": "Kontakt zůstává oddělený od samotného produktu.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/#kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/reference/",
+      "title": "Ukázková realizace",
+      "description": "Vzor podstránky: ukázková realizace.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "CCN / WEB TEMPLATE / 0.1",
+          "title": "Ukázková realizace",
+          "intro": "Jeden společný základ. Samostatné moduly, vlastní obsah a charakter každého webu.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační grafika — ukázka modulu"
+          },
+          "actions": [
+            {
+              "label": "Zpět na přehled",
+              "href": "/#nabidka"
+            }
+          ]
+        },
+        {
+          "type": "specs",
+          "id": "parametry",
+          "title": "Parametry na jednom místě",
+          "items": [
+            {
+              "label": "Místo",
+              "value": "Doplní klient"
+            },
+            {
+              "label": "Rok",
+              "value": "Doplní klient"
+            },
+            {
+              "label": "Rozsah",
+              "value": "Doplní klient"
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "id": "popis",
+          "title": "Podrobnosti",
+          "image": {
+            "src": "/assets/building.svg",
+            "alt": "Ukázková realizace"
+          },
+          "paragraphs": [
+            "Zde popište zadání a výsledek realizace, průběh služby nebo přednosti produktu.",
+            "Podstránka používá stejné moduly jako hlavní stránka. Jejich pořadí i obsah lze měnit."
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "fotografie",
+          "eyebrow": "04 / GALERIE",
+          "title": "Obrázky s prohlížením.",
+          "images": [
+            {
+              "src": "/assets/building.svg",
+              "alt": "Ukázková stavba"
+            },
+            {
+              "src": "/assets/truck.svg",
+              "alt": "Ukázková doprava"
+            },
+            {
+              "src": "/assets/boat.svg",
+              "alt": "Ukázková loď"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "title": "Zaujalo vás to?",
+          "intro": "Kontakt zůstává oddělený od samotného produktu.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/#kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/sluzba/",
+      "title": "Ukázková služba",
+      "description": "Vzor podstránky: ukázková služba.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "CCN / WEB TEMPLATE / 0.1",
+          "title": "Ukázková služba",
+          "intro": "Jeden společný základ. Samostatné moduly, vlastní obsah a charakter každého webu.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/truck.svg",
+            "alt": "Ilustrační grafika — ukázka modulu"
+          },
+          "actions": [
+            {
+              "label": "Zpět na přehled",
+              "href": "/#nabidka"
+            }
+          ]
+        },
+        {
+          "type": "specs",
+          "id": "parametry",
+          "title": "Parametry na jednom místě",
+          "items": [
+            {
+              "label": "Pro koho",
+              "value": "Doplní klient"
+            },
+            {
+              "label": "Oblast působnosti",
+              "value": "Doplní klient"
+            },
+            {
+              "label": "Způsob objednání",
+              "value": "Doplní klient"
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "id": "popis",
+          "title": "Podrobnosti",
+          "image": {
+            "src": "/assets/truck.svg",
+            "alt": "Ukázková služba"
+          },
+          "paragraphs": [
+            "Zde popište zadání a výsledek realizace, průběh služby nebo přednosti produktu.",
+            "Podstránka používá stejné moduly jako hlavní stránka. Jejich pořadí i obsah lze měnit."
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "fotografie",
+          "eyebrow": "04 / GALERIE",
+          "title": "Obrázky s prohlížením.",
+          "images": [
+            {
+              "src": "/assets/building.svg",
+              "alt": "Ukázková stavba"
+            },
+            {
+              "src": "/assets/truck.svg",
+              "alt": "Ukázková doprava"
+            },
+            {
+              "src": "/assets/boat.svg",
+              "alt": "Ukázková loď"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "title": "Zaujalo vás to?",
+          "intro": "Kontakt zůstává oddělený od samotného produktu.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/#kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/produkt/",
+      "title": "Ukázkový produkt",
+      "description": "Vzor podstránky: ukázkový produkt.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "CCN / WEB TEMPLATE / 0.1",
+          "title": "Ukázkový produkt",
+          "intro": "Jeden společný základ. Samostatné moduly, vlastní obsah a charakter každého webu.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/boat.svg",
+            "alt": "Ilustrační grafika — ukázka modulu"
+          },
+          "actions": [
+            {
+              "label": "Zpět na přehled",
+              "href": "/#nabidka"
+            }
+          ]
+        },
+        {
+          "type": "specs",
+          "id": "parametry",
+          "title": "Parametry na jednom místě",
+          "items": [
+            {
+              "label": "Model",
+              "value": "Doplní klient"
+            },
+            {
+              "label": "Rozměry",
+              "value": "Doplní klient"
+            },
+            {
+              "label": "Výbava",
+              "value": "Doplní klient"
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "id": "popis",
+          "title": "Podrobnosti",
+          "image": {
+            "src": "/assets/boat.svg",
+            "alt": "Ukázkový produkt"
+          },
+          "paragraphs": [
+            "Zde popište zadání a výsledek realizace, průběh služby nebo přednosti produktu.",
+            "Podstránka používá stejné moduly jako hlavní stránka. Jejich pořadí i obsah lze měnit."
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "fotografie",
+          "eyebrow": "04 / GALERIE",
+          "title": "Obrázky s prohlížením.",
+          "images": [
+            {
+              "src": "/assets/building.svg",
+              "alt": "Ukázková stavba"
+            },
+            {
+              "src": "/assets/truck.svg",
+              "alt": "Ukázková doprava"
+            },
+            {
+              "src": "/assets/boat.svg",
+              "alt": "Ukázková loď"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "title": "Zaujalo vás to?",
+          "intro": "Kontakt zůstává oddělený od samotného produktu.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/#kontakt"
+          }
+        }
+      ]
+    }
+  ]
+}

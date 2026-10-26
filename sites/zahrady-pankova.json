@@ -1,0 +1,272 @@
+{
+  "name": "Zahradní centrum Kumburský Újezd / Ing. Lucie Pánková",
+  "tagline": "Modulární základ pro klientské weby",
+  "url": "https://zahrady-pankova.ccn-dev.cz",
+  "indexable": false,
+  "theme": {
+    "accent": "#a52c2c",
+    "ink": "#23332d",
+    "paper": "#f6f3ec",
+    "serif": false
+  },
+  "navigation": [
+    {
+      "label": "Nabídka",
+      "href": "/#nabidka"
+    },
+    {
+      "label": "Příběh",
+      "href": "/#pribeh"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/#kontakt"
+    }
+  ],
+  "footer": "Vývojová ukázka CCN. Ilustrační obsah, žádné automatické odesílání.",
+  "footerLinks": [],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Stavebnice webů",
+      "description": "Katalog modulů CCN pro weby služeb, referencí a produktů.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "MILACEK / UKÁZKOVÁ SESTAVA",
+          "title": "Vaše plány. Naše práce. Pevný základ.",
+          "intro": "Ukázková sestava modulů podle původního klientského webu. Obsah a média jsou určené k dalšímu doplnění.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační motiv: milacek"
+          },
+          "actions": [
+            {
+              "label": "Prohlédnout moduly",
+              "href": "/#nabidka"
+            },
+            {
+              "label": "Ukázkový detail",
+              "href": "/detail/"
+            }
+          ]
+        },
+        {
+          "type": "stats",
+          "id": "cisla",
+          "title": "Společný základ v praxi",
+          "items": [
+            {
+              "value": "3",
+              "label": "zdrojové klientské weby"
+            },
+            {
+              "value": "11",
+              "label": "skládatelných obsahových modulů"
+            },
+            {
+              "value": "1",
+              "label": "společný postup nasazení"
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "id": "nabidka",
+          "eyebrow": "01 / SLUŽBY A KATALOG",
+          "title": "Karty podle vašeho obsahu.",
+          "intro": "Stejný modul pro služby, reference i produktové řady.",
+          "filterable": true,
+          "items": [
+            {
+              "title": "Rekonstrukce rodinného domu",
+              "text": "Ukázka reference. Detail a fotografie doplníme z podkladů klienta.",
+              "category": "Rekonstrukce",
+              "image": {
+                "src": "/assets/building.svg",
+                "alt": "Ilustrační karta 1"
+              },
+              "link": {
+                "label": "Ukázkový detail",
+                "href": "/detail/"
+              }
+            },
+            {
+              "title": "Bistro U Lupiče",
+              "text": "Ukázka reference. Detail a fotografie doplníme z podkladů klienta.",
+              "category": "Novostavby",
+              "image": {
+                "src": "/assets/building.svg",
+                "alt": "Ilustrační karta 2"
+              },
+              "link": {
+                "label": "Ukázkový detail",
+                "href": "/detail/"
+              }
+            },
+            {
+              "title": "Stodola SALIXA",
+              "text": "Ukázka reference. Detail a fotografie doplníme z podkladů klienta.",
+              "category": "Novostavby",
+              "image": {
+                "src": "/assets/building.svg",
+                "alt": "Ilustrační karta 3"
+              },
+              "link": {
+                "label": "Ukázkový detail",
+                "href": "/detail/"
+              }
+            }
+          ]
+        },
+        {
+          "type": "split",
+          "id": "pribeh",
+          "eyebrow": "02 / O FIRMĚ",
+          "title": "Prostor pro vlastní příběh.",
+          "image": {
+            "src": "/assets/building.svg",
+            "alt": "Ilustrační fotografie nahrazená grafikou"
+          },
+          "paragraphs": [
+            "Text a fotografie tvoří samostatný modul. V další zakázce stačí vyměnit obsah a vybrat barevné nastavení.",
+            "Ukázka vychází ze společné struktury tří webů. Není kopií jejich vzhledu ani kompletní migrací klientských stránek."
+          ]
+        },
+        {
+          "type": "steps",
+          "id": "postup",
+          "eyebrow": "03 / POSTUP",
+          "title": "Od zadání k publikaci.",
+          "items": [
+            {
+              "title": "Vybereme sestavu",
+              "text": "Zvolíme moduly, jejich pořadí a stránky."
+            },
+            {
+              "title": "Doplníme obsah",
+              "text": "Vložíme texty, kontakty, fotografie a média klienta."
+            },
+            {
+              "title": "Ověříme a nasadíme",
+              "text": "Zkontrolujeme odkazy, mobil a výsledné soubory."
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "galerie",
+          "eyebrow": "04 / GALERIE",
+          "title": "Obrázky s prohlížením.",
+          "images": [
+            {
+              "src": "/assets/building.svg",
+              "alt": "Ukázková stavba"
+            },
+            {
+              "src": "/assets/truck.svg",
+              "alt": "Ukázková doprava"
+            },
+            {
+              "src": "/assets/boat.svg",
+              "alt": "Ukázková loď"
+            }
+          ]
+        },
+        {
+          "type": "contact",
+          "id": "kontakt",
+          "eyebrow": "07 / KONTAKT",
+          "title": "Začněme rozhovorem.",
+          "address": "Ukázková společnost\nAdresa klienta se doplní při založení webu.",
+          "email": "kontakt@example.invalid",
+          "people": [
+            {
+              "name": "Kontaktní osoba",
+              "role": "Ukázková role"
+            }
+          ],
+          "form": {
+            "mode": "demo"
+          }
+        }
+      ]
+    },
+    {
+      "path": "/detail/",
+      "title": "Ukázkový detail",
+      "description": "Sestava detailu produktu nebo realizace.",
+      "sections": [
+        {
+          "type": "hero",
+          "id": "uvod",
+          "eyebrow": "CCN / WEB TEMPLATE / 0.1",
+          "title": "Detail produktu nebo realizace.",
+          "intro": "Jeden společný základ. Samostatné moduly, vlastní obsah a charakter každého webu.",
+          "variant": "split",
+          "media": {
+            "src": "/assets/boat.svg",
+            "alt": "Ilustrační grafika — ukázka modulu"
+          },
+          "actions": [
+            {
+              "label": "Zpět na přehled",
+              "href": "/#nabidka"
+            }
+          ]
+        },
+        {
+          "type": "specs",
+          "id": "parametry",
+          "title": "Parametry na jednom místě",
+          "items": [
+            {
+              "label": "Typ obsahu",
+              "value": "Produkt nebo reference"
+            },
+            {
+              "label": "Údaje",
+              "value": "Doplní klient"
+            },
+            {
+              "label": "Fotografie",
+              "value": "Vlastní nebo licencované"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "fotografie",
+          "eyebrow": "04 / GALERIE",
+          "title": "Obrázky s prohlížením.",
+          "images": [
+            {
+              "src": "/assets/building.svg",
+              "alt": "Ukázková stavba"
+            },
+            {
+              "src": "/assets/truck.svg",
+              "alt": "Ukázková doprava"
+            },
+            {
+              "src": "/assets/boat.svg",
+              "alt": "Ukázková loď"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "id": "poptavka",
+          "title": "Zaujalo vás to?",
+          "intro": "Kontakt zůstává oddělený od samotného produktu.",
+          "link": {
+            "label": "Přejít na kontakt",
+            "href": "/#kontakt"
+          }
+        }
+      ]
+    }
+  ]
+}

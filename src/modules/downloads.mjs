@@ -1,0 +1,2 @@
+import {escape,section,url} from '../lib/html.mjs';
+export default s=>section(s,`<ul class="download-list">${s.items.map(x=>`<li><div><h3>${escape(x.title)}</h3>${x.description?`<p>${escape(x.description)}</p>`:''}<small>${escape([x.format,x.size].filter(Boolean).join(' · '))}</small></div><a class="button" href="${url(x.href)}"${x.href.startsWith('/')?' download':''}>Stáhnout<span class="sr-only">: ${escape(x.title)}</span></a></li>`).join('')}</ul>`);

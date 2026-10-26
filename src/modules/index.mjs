@@ -1,0 +1,17 @@
+import location from './location.mjs';
+import reviews from './reviews.mjs';
+import partners from './partners.mjs';
+import team from './team.mjs';
+import downloads from './downloads.mjs';
+import hero from './hero.mjs';
+import stats from './stats.mjs';
+import cards from './cards.mjs';
+import split from './split.mjs';
+import steps from './steps.mjs';
+import gallery from './gallery.mjs';
+import specs from './specs.mjs';
+import destinations from './destinations.mjs';
+import faq from './faq.mjs';
+import contact from './contact.mjs';
+import cta from './cta.mjs';
+export const modules={hero,stats,cards,split,steps,gallery,specs,destinations,faq,contact,cta,location,reviews,partners,team,downloads};

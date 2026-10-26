@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-08",
+  "sources": [
+    {
+      "repository": "CCNplus/milacek-web",
+      "tree": "a3716edfcddc9ef2b4ee6cad4facb35f866fe0f5",
+      "files": 460,
+      "media": [],
+      "instructions": []
+    },
+    {
+      "repository": "CCNplus/beran-web",
+      "tree": "92d4081d9877d13affd5bfa40a61ce22cbcf1b30",
+      "files": 32,
+      "media": [],
+      "instructions": []
+    },
+    {
+      "repository": "CCNplus/italboats-web",
+      "tree": "498a5d55f70f436420d829f5aee0d6be0287df15",
+      "files": 59,
+      "media": [],
+      "instructions": []
+    }
+  ]
+}

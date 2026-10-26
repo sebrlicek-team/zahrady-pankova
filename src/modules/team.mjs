@@ -1,0 +1,2 @@
+import {escape,section,image,url} from '../lib/html.mjs';
+export default s=>section(s,`<div class="module-grid">${s.items.map(x=>`<article class="module-card">${x.image?image(x.image):''}<h3>${escape(x.name)}</h3><p>${escape(x.role)}</p>${x.text?`<p>${escape(x.text)}</p>`:''}${x.email?`<p><a href="${url('mailto:'+x.email)}">${escape(x.email)}</a></p>`:''}${x.phone?`<p><a href="${url('tel:'+x.phone.replaceAll(' ',''))}">${escape(x.phone)}</a></p>`:''}</article>`).join('')}</div>`);

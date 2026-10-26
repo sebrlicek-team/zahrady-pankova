@@ -1,0 +1,2 @@
+import {escape,link} from '../lib/html.mjs';
+export default site => `<a class="skip" href="#main">Přejít na obsah</a><header class="header"><a class="brand" href="/">${escape(site.name)}<span>${escape(site.tagline)}</span></a><button type="button" class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden>Menu</button><nav id="navigation" aria-label="Hlavní navigace">${site.navigation.map(x=>link(x,'nav-link')).join('')}</nav></header>`;

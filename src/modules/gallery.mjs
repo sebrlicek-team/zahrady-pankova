@@ -1,0 +1,2 @@
+import {escape,url,image,section} from '../lib/html.mjs';
+export default s=>section(s,`<div class="gallery" data-gallery>${s.images.map(x=>`<a href="${url(x.src)}" data-photo>${image(x)}</a>`).join('')}<dialog aria-label="${escape(s.title)}"><div class="dialog-tools"><button type="button" data-close>Zavřít ×</button><button type="button" data-prev aria-label="Předchozí fotografie">←</button><button type="button" data-next aria-label="Další fotografie">→</button><span data-position role="status"></span></div><img data-large alt=""></dialog></div>`);
